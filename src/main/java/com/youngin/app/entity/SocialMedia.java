@@ -12,14 +12,18 @@ public class SocialMedia {
     private Long id;
     private String github;
     private String twitter;
+    private String instagram;
+    private String facebook;
 
     public SocialMedia(){
 
     }
 
-    public SocialMedia(String github, String twitter){
+    public SocialMedia(String github, String twitter, String instagram, String facebook) {
         this.github = github;
         this.twitter = twitter;
+        this.instagram = instagram;
+        this.facebook = facebook;
     }
 
     public Long getId() {
@@ -46,4 +50,19 @@ public class SocialMedia {
         this.twitter = twitter;
     }
 
+    public String getInstagram() {
+        return instagram;
+    }
+
+    public void setInstagram(String instagram) {
+        this.instagram = instagram;
+    }
+
+    public String getFacebook() {
+        return facebook;
+    }
+
+    public void setFacebook(String facebook) {
+        this.facebook = facebook;
+    }
 }
