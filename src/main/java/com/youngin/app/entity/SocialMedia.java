@@ -31,6 +31,7 @@ public class SocialMedia {
     }
 
     public void setId(Long id) {
+
         this.id = id;
     }
 
@@ -39,10 +40,12 @@ public class SocialMedia {
     }
 
     public void setGithub(String github) {
+
         this.github = github;
     }
 
     public String getTwitter() {
+
         return twitter;
     }
 
